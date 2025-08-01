@@ -28,7 +28,7 @@ const Dashboard = () => {
         <h1 className="text-2xl font-bold">📋 HabitForge</h1>
 
         <div className="flex flex-col sm:flex-row gap-2 sm:items-center mt-2 sm:mt-0">
-          <span className="text-sm sm:text-base">👤 {user?.number}</span>
+          <span className="text-sm sm:text-base"> {user?.number}</span>
           <button
             onClick={handleLogout}
             className="bg-white text-indigo-600 font-medium px-5 py-1.5 rounded hover:bg-gray-100 transition"
