@@ -64,7 +64,7 @@ const Login = () => {
 
         <input
           type="password"
-          placeholder="4-digit Password (OTP Style)"
+          placeholder="4-digit Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           className="w-full p-2 border rounded mb-3"
