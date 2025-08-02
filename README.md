@@ -1,6 +1,14 @@
 <<<<<<< HEAD
 # HabitTracker
 
+# 📋 HabitForge – A Frontend-Only Multi-User Habit Tracker
+
+HabitForge is a beautiful, responsive, and fully frontend-based habit tracker that allows multiple users to sign up using their mobile number and OTP-style password. Each user can add, track, and delete their daily habits in a weekly view — all data is stored locally using `localStorage`.
+
+> ✅ No backend, no database — 100% offline and persistent!
+
+---
+
 Strucutre of the App
 App
 ├── AuthContext (global)
@@ -16,14 +24,62 @@ App
 =======
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Login / Signup with Phone + 4-digit Password**
+- **Multi-user support** using localStorage
+- **Create new habits** with name, category, color
+- **Track habits Mon–Sun** using toggle buttons
+- **Streak count** next to each habit
+- 🗑**Delete individual habits**
+- **Responsive UI** (Mobile + Desktop)
+- ✅ All data persisted via localStorage
 
-## Expanding the ESLint configuration
+---
+Live Link : https://habittrackerrrrr.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> fca9e7c (Initial commit)
+## 🛠️ Tech Stack
+
+| Tool         | Purpose                        |
+|--------------|---------------------------------|
+| React        | UI framework (functional only)  |
+| React Router | Routing (Login / Dashboard)     |
+| Context API  | Auth + Habit state management   |
+| localStorage | Data persistence (per user)     |
+| Tailwind CSS | Utility-first responsive styling|
+| UUID         | Unique IDs for each habit       |
+| React Icons  | Icon for delete habit           |
+
+---
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/mahak24342/HabitTrackerr.git
+
+### install dependencies
+npm install
+
+### start the dev server
+npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
